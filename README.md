@@ -12,6 +12,10 @@ Anbang Liang, Zhipeng Chen*, Wen Xiong, Yu Yin, Dejin Zhang, Qingquan Li
   <a href="#citation">Citation</a >
 </p >
 
+<p align="center">
+  < img src="Images/Fig1.jpg" alt="BdFusion Overview" width="80%"/>
+</p >
+
 ---
 
 ## 📢 Note
