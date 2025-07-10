@@ -5,10 +5,9 @@ Anbang Liang, Zhipeng Chen*, Wen Xiong, Yu Yin, Dejin Zhang, Qingquan Li
 <p align="center">
   <a href=" ">Overview</a > •
   <a href="#key-features">Key Features</a > •
-  <a href="#installation">Installation</a > •
-  <a href="#usage">Usage</a > •
+  <a href="#Network Architecture">Network Architecture</a > •
+  <a href="#datasets">datasets</a > •
   <a href="#results">Results</a > •
-  <a href="#citation">Citation</a >
 </p >
 <p align="center">
 <img src="images/Fig1.jpg" width="80%"/>
@@ -26,7 +25,7 @@ This repository contains the official authors implementation associated with the
 
 BdFusion is a novel attention-based visual-LiDAR fusion method for resilient place recognition in complex environments. Our approach leverages bi-directional attention mechanisms to exploit complementary features between 2D images and 3D point clouds, achieving state-of-the-art performance on multiple benchmarks.
 
-#####    Key Contributions:
+####    Key Contributions:
 
 1. **Bi-directional Attention Module**: Explicit cross-modal feature interaction and enhancement by mining complementary features between 2D textures and 3D structures
 2. **Multi-scale Fusion Network**: Comprehensive optimization of feature representation and fusion process using spatial and channel attention
@@ -39,79 +38,9 @@ BdFusion is a novel attention-based visual-LiDAR fusion method for resilient pla
 - ✅ **Flexible Architecture**: Compatible with various visual and LiDAR feature extractors
 - ✅ **Comprehensive Evaluation**: Tested on Oxford RobotCar, KITTI, and custom SZU datasets
 
-## Installation
-
-### Requirements
+## Requirements
 - Python 3.8+
-- PyTorch 1.10+
 - CUDA 11.0+
-- Other dependencies: `numpy`, `opencv-python`, `open3d`, `tqdm`
-
-### Setup
-
-```bash
-# Clone the repository
-git clone https://github.com/your-username/BdFusion.git
-cd BdFusion
-
-# Create conda environment
-conda create -n bdfusion python=3.8
-conda activate bdfusion
-
-# Install PyTorch (adjust CUDA version as needed)
-conda install pytorch==1.10.0 torchvision==0.11.0 cudatoolkit=11.3 -c pytorch
-
-# Install other dependencies
-pip install -r requirements.txt
-```
-
-## Usage
-
-### Data Preparation
-
-Download datasets:
-- [Oxford RobotCar Dataset](https://robotcar-dataset.robots.ox.ac.uk/)
-- [KITTI Odometry Dataset](http://www.cvlibs.net/datasets/kitti/eval_odometry.php)
-- [SZU Dataset](link-to-your-dataset) (Coming soon!)
-
-Organize data as follows:
-```
-data/
-├── oxford/
-│   ├── 2014-05-06-12-54-54/
-│   ├── 2014-05-06-13-09-52/
-│   └── ...
-├── kitti/
-│   ├── sequences/
-│   └── poses/
-└── szu/
-    ├── seq01/
-    ├── seq02/
-    └── ...
-```
-
-### Training
-
-```bash
-# Train on Oxford RobotCar dataset
-python train.py --config configs/oxford.yaml
-
-# Train on KITTI dataset
-python train.py --config configs/kitti.yaml
-
-# Train on SZU dataset
-python train.py --config configs/szu.yaml
-```
-
-### Evaluation
-
-```bash
-# Evaluate on test set
-python evaluate.py --config configs/oxford.yaml --checkpoint checkpoints/bdfusion_best.pth
-
-# Generate visualization
-python visualize.py --config configs/oxford.yaml --checkpoint checkpoints/bdfusion_best.pth
-```
 
 ### Pre-trained Models
 
