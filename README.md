@@ -63,7 +63,7 @@ This section provides an overview of the network structure used in DeepTurbid.
 - **SZU Dataset Overview:**  
   The SZU datasets traverse over 20km and include 10 trajectories around the campus of Shenzhen University (SZU), and covers various complex underground and urban scenes (low-light, low-textured, homogeneous structured scenes, etc.).
 <p align="center">
-<img src="images/Fig3.jpg" width="100%"/>
+<img src="images/Fig6.jpg" width="100%"/>
 </p >
 
 - **Dataset Samples:**  
