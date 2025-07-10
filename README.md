@@ -72,36 +72,6 @@ This section provides an overview of the network structure used in DeepTurbid.
 
 ### Quantitative Results
 
-<table>
-<tr>
-<td>
-
-#### Oxford RobotCar Dataset
-| Method | AR@1 | AR@1% | AP |
-|--------|------|-------|-----|
-| NetVLAD | 58.52% | 73.57% | 60.31% |
-| PointNetVLAD | 63.88% | 81.29% | 69.04% |
-| MinkLoc++ | 96.72% | 99.10% | 90.56% |
-| AdaFusion | 98.18% | 99.21% | 92.33% |
-| PRFusion | 98.23% | 99.24% | 92.45% |
-| **BdFusion (Ours)** | **98.25%** | **99.32%** | **93.07%** |
-
-</td>
-<td>
-
-#### KITTI Dataset
-| Method | AR@1 | AR@1% | AP |
-|--------|------|-------|-----|
-| NetVLAD | 47.96% | 65.13% | 51.25% |
-| PointNetVLAD | 60.83% | 76.82% | 62.58% |
-| MinkLoc++ | 83.58% | 87.15% | 82.39% |
-| AdaFusion | 89.05% | 90.46% | 87.61% |
-| PRFusion | 90.35% | 91.87% | 88.92% |
-| **BdFusion (Ours)** | **90.87%** | **92.41%** | **89.30%** |
-
-</td>
-</tr>
-</table>
 
 ### Qualitative Results
 
@@ -109,56 +79,13 @@ This section provides an overview of the network structure used in DeepTurbid.
   < img src="assets/qualitative_results.png" alt="Qualitative Results" width="90%"/>
 </p >
 
-### Ablation Study
 
-| Configuration | AR@1 | Runtime (ms) |
-|--------------|------|--------------|
-| w/o BDA | 89.36% | 3.55 |
-| w/o IFA | 95.54% | 5.08 |
-| w/o PFA | 97.19% | 5.32 |
-| **Full Model** | **98.25%** | 6.78 |
 
-## Network Architecture
-
-<p align="center">
-  < img src="assets/architecture.png" alt="Network Architecture" width="90%"/>
-</p >
-
-The BdFusion network consists of three main components:
-1. **Feature Extraction**: Parallel CNN branches for image and point cloud features
-2. **Bi-directional Attention**: Cross-modal feature enhancement
-3. **Adaptive Fusion**: Channel attention-based feature fusion
-
-## Citation
-
-If you find this work useful in your research, please consider citing:
-
-```bibtex
-@article{liang2025bdfusion,
-  title={BdFusion: Bi-directional Visual-LiDAR Fusion for Resilient Place Recognition},
-  author={Liang, Anbang and Chen, Zhipeng and Xiong, Wen and Meng, Fanyi and Yin, Yu and Zhang, Dejin and Li, Qingquan},
-  journal={ISPRS Journal of Photogrammetry and Remote Sensing},
-  year={2025},
-  publisher={Elsevier}
-}
-```
-
-## Acknowledgments
-
-This work was supported by:
-- National Key Research and Development Program of China (Grant 2022YFB3904601)
-- Shenzhen Science and Technology Program (Project No.KCXFZ20240903093000002)
-- Natural Science Foundation of Guangdong Province (Grant No.2025A1515010216)
+---
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-For questions and collaborations, please contact:
-- Anbang Liang: [email]
-- Zhipeng Chen: chenzp1990@szu.edu.cn
 
 ---
 
