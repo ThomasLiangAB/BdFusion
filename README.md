@@ -71,10 +71,14 @@ This section provides an overview of the network structure used in DeepTurbid.
 ## Results
 
 ### Quantitative Results
+<p align="center">
+<img src="images/Fig12.jpg" alt="Precision-Recall (P-R) curves of loop closure results on SZU dataset" width="50%"/>
+</p >
 
 
 ### Qualitative Results
 
 <p align="center">
-  < img src="assets/qualitative_results.png" alt="Qualitative Results" width="90%"/>
+<img src="images/Fig14.jpg" alt="The absolute trajectory errors of SLAM: The high accumulated errors are marked in red color, while the low errors are marked in blue color. At the same locations, our system shows significantly lower ATE than LVI-SAM." width="50%"/>
 </p >
+
