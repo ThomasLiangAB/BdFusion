@@ -55,14 +55,10 @@ This section provides an overview of the network structure used in DeepTurbid.
 
 ---
 
-
-### Pre-trained Models
-
-| Dataset | AR@1 | AR@1% | Download |
-|---------|------|-------|----------|
-| Oxford RobotCar | 98.25% | 99.32% | [model](link) |
-| KITTI | 90.87% | 92.41% | [model](link) |
-| SZU | 92.02% | 94.69% | [model](link) |
+## Datasets
+- [Oxford RobotCar Dataset](https://robotcar-dataset.robots.ox.ac.uk/)
+- [KITTI Odometry Dataset](http://www.cvlibs.net/datasets/kitti/eval_odometry.php)
+- [SZU Dataset] (Coming soon!)
 
 ## Results
 
