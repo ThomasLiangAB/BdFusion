@@ -14,6 +14,8 @@ Anbang Liang, Zhipeng Chen*, Wen Xiong, Yu Yin, Dejin Zhang, Qingquan Li
 <img src="images/Fig1.jpg" width="80%"/>
 </p >
 
+This repository contains the official authors implementation associated with the paper "BdFusion: Bi-directional Visual-LiDAR Fusion for Resilient Place Recognition".
+
 
 ---
 
