@@ -12,9 +12,7 @@ Anbang Liang, Zhipeng Chen*, Wen Xiong, Yu Yin, Dejin Zhang, Qingquan Li
   <a href="#citation">Citation</a >
 </p >
 
-<p align="center">
-  < img src="https://github.com/ThomasLiangAB/BdFusion/blob/master/images/Fig1.jpg" width="80%"/>
-</p >
+< img src="images/Fig1.jpg" width="80%"/>
 
 ---
 
