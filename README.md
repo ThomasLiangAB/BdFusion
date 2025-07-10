@@ -1,4 +1,5 @@
 # BdFusion: Bi-directional Visual-LiDAR Fusion for Resilient Place Recognition
+Anbang Liang, Zhipeng Chen*, Wen Xiong, Yu Yin, Dejin Zhang, Qingquan Li
 
 <p align="center">
   <a href=" ">Overview</a > •
