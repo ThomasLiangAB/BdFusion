@@ -1,13 +1,6 @@
 # BdFusion: Bi-directional Visual-LiDAR Fusion for Resilient Place Recognition
 
 <p align="center">
-  < img src="https://img.shields.io/badge/ISPRS-2025-blue" alt="ISPRS 2025"/>
-  < img src="https://img.shields.io/badge/Place_Recognition-SOTA-green" alt="SOTA"/>
-  < img src="https://img.shields.io/badge/License-MIT-yellow" alt="License"/>
-  < img src="https://img.shields.io/github/stars/your-username/BdFusion?style=social" alt="Stars"/>
-</p >
-
-<p align="center">
   <a href=" ">Overview</a > •
   <a href="#key-features">Key Features</a > •
   <a href="#installation">Installation</a > •
@@ -19,9 +12,8 @@
 ---
 
 ## 📢 News
-- **[2025.07]** 🎉 Paper accepted to ISPRS Journal of Photogrammetry and Remote Sensing!
-- **[2025.07]** 🚀 Code and pre-trained models released!
-- **[2025.06]** 📊 SZU Dataset for complex environment place recognition released!
+- **[2025.07]**  Paper under review.
+- **[TODO]**  Code and Dataset will be released only after the paper is accepted.
 
 ## Overview
 
