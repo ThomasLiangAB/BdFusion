@@ -11,16 +11,15 @@
 
 ---
 
-## 📢 News
+## 📢 Note
 - **[2025.07]**  Paper under review.
 - **[TODO]**  Code and Dataset will be released only after the paper is accepted.
 
 ## Overview
 
 BdFusion is a novel attention-based visual-LiDAR fusion method for resilient place recognition in complex environments. Our approach leverages bi-directional attention mechanisms to exploit complementary features between 2D images and 3D point clouds, achieving state-of-the-art performance on multiple benchmarks.
-
 <p align="center">
-  < img src="assets/overview.png" alt="BdFusion Overview" width="80%"/>
+![Fig1](https://github.com/user-attachments/assets/980520fa-15c9-44b5-b950-4d35dede6187)
 </p >
 
 ### 🎯 Key Contributions
