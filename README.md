@@ -48,7 +48,7 @@ This section provides an overview of the network structure used in DeepTurbid.
 
 - **Network Diagram:**  
 <p align="center">
-<img src="images/Fig2.jpg" width="60%"/>
+<img src="images/Fig2.jpg" width="100%"/>
 </p >
 
 *More detailed network configuration and parameters will be available upon open-source release.*
