@@ -26,7 +26,7 @@ This repository contains the official authors implementation associated with the
 
 BdFusion is a novel attention-based visual-LiDAR fusion method for resilient place recognition in complex environments. Our approach leverages bi-directional attention mechanisms to exploit complementary features between 2D images and 3D point clouds, achieving state-of-the-art performance on multiple benchmarks.
 
-#### Key Contributions
+####    Key Contributions
 
 1. **Bi-directional Attention Module**: Explicit cross-modal feature interaction and enhancement by mining complementary features between 2D textures and 3D structures
 2. **Multi-scale Fusion Network**: Comprehensive optimization of feature representation and fusion process using spatial and channel attention
