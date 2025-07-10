@@ -71,6 +71,7 @@ This section provides an overview of the network structure used in DeepTurbid.
 ## Results
 
 ### Quantitative Results
+
 <p align="center">
 <img src="images/Fig12.jpg" width="50%"/>
 </p >
