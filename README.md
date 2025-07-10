@@ -15,6 +15,7 @@ Anbang Liang, Zhipeng Chen*, Wen Xiong, Yu Yin, Dejin Zhang, Qingquan Li
 </p >
 
 This repository contains the official authors implementation associated with the paper "BdFusion: Bi-directional Visual-LiDAR Fusion for Resilient Place Recognition".
+
 ---
 
 ## 📢 Note
@@ -24,11 +25,8 @@ This repository contains the official authors implementation associated with the
 ## Overview
 
 BdFusion is a novel attention-based visual-LiDAR fusion method for resilient place recognition in complex environments. Our approach leverages bi-directional attention mechanisms to exploit complementary features between 2D images and 3D point clouds, achieving state-of-the-art performance on multiple benchmarks.
-<p align="center">
-![Fig1](https://github.com/user-attachments/assets/980520fa-15c9-44b5-b950-4d35dede6187)
-</p >
 
-### 🎯 Key Contributions
+#### Key Contributions
 
 1. **Bi-directional Attention Module**: Explicit cross-modal feature interaction and enhancement by mining complementary features between 2D textures and 3D structures
 2. **Multi-scale Fusion Network**: Comprehensive optimization of feature representation and fusion process using spatial and channel attention
