@@ -78,17 +78,3 @@ This section provides an overview of the network structure used in DeepTurbid.
 <p align="center">
   < img src="assets/qualitative_results.png" alt="Qualitative Results" width="90%"/>
 </p >
-
-
-
----
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-<p align="center">
-  <b>Star ⭐ this repo if you find it useful!</b>
-</p >
