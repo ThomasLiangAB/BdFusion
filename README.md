@@ -10,9 +10,8 @@ Anbang Liang, Zhipeng Chen*, Wen Xiong, Yu Yin, Dejin Zhang, Qingquan Li
   <a href="#citation">Citation</a >
 </p >
 
-<p align="center">
-    < img src="assets/overview.png" alt="BdFusion Overview" width="80%"/>
-</p >
+![Fig1](https://github.com/user-attachments/assets/3762ebb2-a4c9-4963-acf4-b07b3987a16e)
+
 
 ---
 
