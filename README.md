@@ -63,22 +63,10 @@ This section provides an overview of the network structure used in DeepTurbid.
 - **SZU Dataset Overview:**  
   The SZU datasets traverse over 20km and include 10 trajectories around the campus of Shenzhen University (SZU), and covers various complex underground and urban scenes (low-light, low-textured, homogeneous structured scenes, etc.).
 <p align="center">
-<img src="images/Fig6.jpg" width="100%"/>
+<img src="images/Fig6.jpg" width="80%"/>
 </p >
 
-- **Dataset Samples:**  
-![image](https://github.com/user-attachments/assets/e1848c8e-02eb-483e-8ac4-5dc2e70ece56)
-![image](https://github.com/user-attachments/assets/0ae780bd-f6af-404d-9bef-3861234496f8)
-![image](https://github.com/user-attachments/assets/babdb891-14de-494d-95c2-979011372b1b)
-![image](https://github.com/user-attachments/assets/1a016364-60ce-485f-9846-de4a766e16c6)
-
-- **Dataset Structure:**  
-
-  ```plaintext
-  /dataset
-  ├── images/         # Underwater marker images
-  ├── annotations/    # Annotations including keypoints and marker IDs
-  └── README.md       # Dataset description and usage instructions
+---
 
 ## Results
 
