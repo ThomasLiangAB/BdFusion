@@ -75,7 +75,9 @@ This section provides an overview of the network structure used in DeepTurbid.
 <p align="center">
 <img src="images/Fig12.png" width="50%"/>
 </p >
+<p align="center">
 Precision-Recall (P-R) curves on SZU dataset.
+</p >
 
 ### Qualitative Results
 
